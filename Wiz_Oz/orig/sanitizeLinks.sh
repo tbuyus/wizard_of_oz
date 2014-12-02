@@ -8,6 +8,7 @@ rm -r 43936/*.html
 
 cp orig-43936/*.jpg images/
 cp orig-43936/*.htm.html 43936/
+cp orig-43936/*.css      43936/
 
 chmod 666 images/*.jpg
 chmod 666 43936/*.htm.html

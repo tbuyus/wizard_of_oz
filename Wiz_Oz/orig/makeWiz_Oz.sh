@@ -1,10 +1,21 @@
 #!/usr/bin/sh
 
-echo "sanitizing file names and internal links: removing all gutenberg directory structure from filenames"
+
+
+echo "Would you like to sanitizing file names and internal links: removing all gutenberg directory structure from filenames?"
+read answer
+if [ "$answer" == "y" ] || [ "$answer" == "Y" ];
+  then
+
+
 . sanitizeLinks.sh
+fi
 
-echo "cleaning original html files"
 
+echo "cleaning original html files?"
+read answer
+if [ "$answer" == "y" ] || [ "$answer" == "Y" ];
+  then
 #getting rid of most divs
 perl -p  -i -e 's/class=\"(shape_)*wrap_(area_)*(left|right)/class=\"/g' 43936/h-*.html
 perl -p  -i -e 's/class=\"fig(center|right)/class=\"/g' 43936/h-*.html
@@ -27,6 +38,16 @@ perl -p  -i -e 's/<a id=\"Page_[0-9][0-9]*[0-9]*\">\[Pg [0-9][0-9]*[0-9]*\]<\/a>
 #getting rid of redundant divs around images
 #:wperl -p  -i -e 's/<div class=\"\">(.*)<\/div>/\1/g' 43936/h-*.html
 
+#enclosing self-closing a and img tags in p tags
+#perl -p  -i -e 's/<a (^\/*)\/>/<p><a \1\/><\/p>/g' 43936/h-*.html
+#perl -p  -i -e 's/<img (^\/*)\/>/<p><img \1\/><\/p>/g' 43936/h-*.html
+perl -p  -i -e 's/<(a|img) ([^\/]*)\/>/<p><\1 \2\/><\/p>/g' 43936/h-*.html
+perl -p  -i -e 's/^(\xc2\xa0|\n)(\xc2\xa0|\n)*$//g' 43936/h-*.html
+
+
+fi
+
+
 
 
 echo "Would you like to create ebook? [Y/N]" 
@@ -47,7 +68,8 @@ if [ "$answer" == "y" ] || [ "$answer" == "Y" ];
    echo "Would you like to check epub validity? [Y/N]" 
    read answer 
    if [ "$answer" == "y" ] || [ "$answer" == "Y" ]; 
-     then java -jar ../../../epubcheck-3.0.1/epubcheck-3.0.1.jar  Wiz_Oz.epub 
+#     then java -jar ../../../epubcheck-3.0.1/epubcheck-3.0.1.jar  Wiz_Oz.epub 
+     then java -jar $EPUBCHECK_PATH/epubcheck-3.0.1.jar  Wiz_Oz.epub 
    fi
 
   echo "Would you like to azw3 and mobi files? [Y/N]" 
