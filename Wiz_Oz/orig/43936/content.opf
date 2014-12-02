@@ -13,7 +13,7 @@
     <dc:source>http://www.gutenberg.org/files/43936/43936-h/43936-h.htm</dc:source>
   </metadata>
   <manifest>
-    <!--Image: 600 x 833 size=126727 q=70-->
+    <!--Image: 600 x 833  size=126727 q=70-->
     <item href="001.jpg" id="item1" media-type="image/jpeg"/>
     <!--Image: 600 x 766 size=24697 -->
     <item href="003.jpg" id="item2" media-type="image/jpeg"/>
