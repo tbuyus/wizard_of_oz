@@ -19,157 +19,157 @@
       </navLabel>
       <content src="h-1.html#pgepubid00000"/>
     </navPoint>
-    <navPoint id="np-2" playOrder="5">
+    <navPoint id="np-2" playOrder="2">
       <navLabel>
         <text>LIST OF CHAPTERS.</text>
       </navLabel>
       <content src="h-1.html#pgepubid00001"/>
     </navPoint>
-    <navPoint id="np-3" playOrder="6">
+    <navPoint id="np-3" playOrder="3">
       <navLabel>
         <text>CHAPTER 1 —The Cyclone.</text>
       </navLabel>
       <content src="h-1.html#Chapter_I"/>
     </navPoint>
-    <navPoint id="np-4" playOrder="7">
+    <navPoint id="np-4" playOrder="4">
       <navLabel>
         <text>CHAPTER 2 —The Council with The Munchkins.</text>
       </navLabel>
       <content src="h-1.html#Chapter_II"/>
     </navPoint>
-    <navPoint id="np-5" playOrder="8">
+    <navPoint id="np-5" playOrder="5">
       <navLabel>
         <text>CHAPTER 3 -How Dorothy Saved the Scarecrow.</text>
       </navLabel>
       <content src="h-1.html#Chapter_III"/>
     </navPoint>
-    <navPoint id="np-6" playOrder="9">
+    <navPoint id="np-6" playOrder="6">
       <navLabel>
         <text>CHAPTER 4 —The Road Through the Forest.</text>
       </navLabel>
       <content src="h-1.html#Chapter_IV"/>
     </navPoint>
-    <navPoint id="np-7" playOrder="10">
+    <navPoint id="np-7" playOrder="7">  
       <navLabel>
         <text>CHAPTER 5 —The Rescue of the Tin Woodman.</text>
       </navLabel>
       <content src="h-2.html#Chapter_V"/>
     </navPoint>
-    <navPoint id="np-8" playOrder="11">
+    <navPoint id="np-8" playOrder="8"> 
       <navLabel>
         <text>CHAPTER 6 —The Cowardly Lion.</text>
       </navLabel>
       <content src="h-2.html#Chapter_VI"/>
     </navPoint>
-    <navPoint id="np-9" playOrder="12">
+    <navPoint id="np-9" playOrder="9"> 
       <navLabel>
         <text>CHAPTER 7 —The Journey to The Great Oz.</text>
       </navLabel>
       <content src="h-2.html#Chapter_VII"/>
     </navPoint>
-    <navPoint id="np-11" playOrder="13">
+    <navPoint id="np-11" playOrder="10">
       <navLabel>
         <text>CHAPTER 8 —The Deadly Poppy Field.</text>
       </navLabel>
       <content src="h-2.html#Chapter_VIII"/>
     </navPoint>
-    <navPoint id="np-12" playOrder="14">
+    <navPoint id="np-12" playOrder="11">
       <navLabel>
         <text>CHAPTER 9 —The Queen of the Field Mice.</text>
       </navLabel>
       <content src="h-3.html#Chapter_IX"/>
     </navPoint>
-    <navPoint id="np-13" playOrder="15">
+    <navPoint id="np-13" playOrder="12">
       <navLabel>
         <text>CHAPTER 10 —The Guardian of the Gates.</text>
       </navLabel>
       <content src="h-3.html#Chapter_X"/>
     </navPoint>
-    <navPoint id="np-14" playOrder="16">
+    <navPoint id="np-14" playOrder="13">
       <navLabel>
         <text>CHAPTER 11 —The Wonderful Emerald City of Oz.</text>
       </navLabel>
       <content src="h-3.html#Chapter_XI"/>
     </navPoint>
-    <navPoint id="np-15" playOrder="17">
+    <navPoint id="np-15" playOrder="14">
       <navLabel>
         <text>CHAPTER 12 —The Search for the Wicked Witch.</text>
       </navLabel>
       <content src="h-4.html#Chapter_XII"/>
     </navPoint>
-    <navPoint id="np-16" playOrder="18">
+    <navPoint id="np-16" playOrder="15">
       <navLabel>
         <text>CHAPTER 13 —How the Four were Reunited.</text>
       </navLabel>
       <content src="h-4.html#Chapter_XIII"/>
     </navPoint>
-    <navPoint id="np-17" playOrder="19">
+    <navPoint id="np-17" playOrder="16">
       <navLabel>
         <text>CHAPTER 14 —The Winged Monkeys.</text>
       </navLabel>
       <content src="h-5.html#Chapter_XIV"/>
     </navPoint>
-    <navPoint id="np-18" playOrder="20">
+    <navPoint id="np-18" playOrder="17">
       <navLabel>
         <text>CHAPTER 15 —The Discovery of Oz the Terrible.</text>
       </navLabel>
       <content src="h-5.html#Chapter_XV"/>
     </navPoint>
-    <navPoint id="np-19" playOrder="21">
+    <navPoint id="np-19" playOrder="18">
       <navLabel>
         <text>CHAPTER 16 —The Magic Art of the Great Humbug.</text>
       </navLabel>
       <content src="h-5.html#Chapter_XVI"/>
     </navPoint>
-    <navPoint id="np-20" playOrder="22">
+    <navPoint id="np-20" playOrder="19">
       <navLabel>
         <text>CHAPTER 17 —How the Balloon was Launched.</text>
       </navLabel>
       <content src="h-5.html#Chapter_XVII"/>
     </navPoint>
-    <navPoint id="np-22" playOrder="24">
+    <navPoint id="np-22" playOrder="20">
       <navLabel>
         <text>CHAPTER 18 —Away to the South.</text>
       </navLabel>
       <content src="h-6.html#Chapter_XVIII"/>
     </navPoint>
-    <navPoint id="np-23" playOrder="25">
+    <navPoint id="np-23" playOrder="21">
       <navLabel>
         <text>CHAPTER 19 —Attacked by the Fighting Trees.</text>
       </navLabel>
       <content src="h-6.html#Chapter_XIX"/>
     </navPoint>
-    <navPoint id="np-24" playOrder="26">
+    <navPoint id="np-24" playOrder="22">
       <navLabel>
         <text>CHAPTER 20 —The Dainty China Country.</text>
       </navLabel>
       <content src="h-6.html#Chapter_XX"/>
     </navPoint>
-    <navPoint id="np-25" playOrder="27">
+    <navPoint id="np-25" playOrder="23">
       <navLabel>
         <text>CHAPTER 21 —The Lion Becomes the King of Beasts.</text>
       </navLabel>
       <content src="h-6.html#Chapter_XXI"/>
     </navPoint>
-    <navPoint id="np-26" playOrder="28">
+    <navPoint id="np-26" playOrder="24">
       <navLabel>
         <text>CHAPTER 22 —The Country of the Quadlings.</text>
       </navLabel>
       <content src="h-6.html#Chapter_XXII"/>
     </navPoint>
-    <navPoint id="np-27" playOrder="29">
+    <navPoint id="np-27" playOrder="25">
       <navLabel>
         <text>CHAPTER 23 —The Good Witch grants Dorothy's Wish.</text>
       </navLabel>
       <content src="h-6.html#Chapter_XXIII"/>
     </navPoint>
-    <navPoint id="np-28" playOrder="30">
+    <navPoint id="np-28" playOrder="26">
       <navLabel>
         <text>CHAPTER 24 —Home Again.</text>
       </navLabel>
       <content src="h-7.html#Chapter_XXIV"/>
     </navPoint>
-    <navPoint id="np-29" playOrder="31">
+    <navPoint id="np-29" playOrder="27">
       <navLabel>
         <text>Transcriber's Notes:</text>
       </navLabel>

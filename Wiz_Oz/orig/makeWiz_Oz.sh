@@ -12,6 +12,7 @@ perl -p  -i -e 's/class=\"(right|left)2* c[0-9][0-9]*[0-9]*/class=\"/g' 43936/h-
 #perl -p  -i -e 's/<div class=\"\">\s*<\/div>//g' 43936/h-*.html
 perl -p  -i -e 's/<\/div>//g' 43936/h-*.html
 perl -p -i -e 's/<div class=\"\">//g' 43936/h-*.html
+perl -p -i -e 's/<div class=\"main\">//g' 43936/h-*.html
 
 #getting rid of page numbers
 #perl -p  -i -e 's/<p><(a|span) id=\"Page_[0-9][0-9]*[0-9]*\" class=\"x-epubmaker-pageno\" title=\"\[Pg [0-9][0-9]*\]\"><\/a><\/p>//g' 43936/h-*.html
@@ -39,7 +40,8 @@ if [ "$answer" == "y" ] || [ "$answer" == "Y" ];
    echo "Would you like to zip images? [Y/N]" 
    read answer 
    if [ "$answer" == "y" ] || [ "$answer" == "Y" ]; 
-     then 7za a Wiz_Oz.epub -tzip 43936/*.jpg 
+     then cp images/*.jpg 43936/
+          7za a Wiz_Oz.epub -tzip 43936/*.jpg 
    fi
 
    echo "Would you like to check epub validity? [Y/N]" 
