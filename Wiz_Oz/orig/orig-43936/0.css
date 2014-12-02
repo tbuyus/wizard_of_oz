@@ -1,0 +1,138 @@
+@charset "utf-8";
+/**/
+body {
+    margin-left: 10%;
+    margin-right: 10%
+    }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    /* all headings centered */
+    clear: both
+    }
+p {
+    margin-top: 0.75em;
+    text-align: justify;
+    margin-bottom: 0.75em;
+    font-size: 122%
+    }
+.firstword {
+    display: none
+    }
+hr {
+    margin: 3em auto 3em auto;
+    height: 0;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #dcdcdc;
+    clear: both
+    }
+hr.tb {
+    margin: 3em auto 3em auto
+    }
+td {
+    padding: 0 1em
+    }
+th {
+    padding: 0 1em
+    }
+.pagenum {
+    /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    font-size: smaller;
+    text-align: right;
+    color: #999
+    }
+/* page numbers */
+.smcap {
+    font-variant: small-caps
+    }
+/* Images */
+.figcenter {
+    margin: auto;
+    text-align: center
+    }
+.figright {
+    clear: right;
+    margin: 0 0 0 1em;
+    padding: 0;
+    text-align: left
+    }
+.bord img {
+    border: 1px solid black
+    }
+/* Wrap around images */
+div.shape_wrap_left div.left {
+    clear: left
+    }
+div.shape_wrap_left div.right {
+    clear: both
+    }
+div.shape_wrap_left div.right2 {
+    clear: right
+    }
+div.shape_wrap_right div.left {
+    clear: right
+    }
+div.shape_wrap_right div.right {
+    clear: right
+    }
+p.caption2 {
+    margin-top: 0;
+    font-size: 70%;
+    text-align: center;
+    font-weight: bold
+    }
+/* Transcriber Notes */
+div.tn {
+    background-color: #EEE;
+    color: #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em
+    }
+div.main {
+    margin: auto;
+    font-size: 125%
+    }
+ul.corrections {
+    list-style-type: circle
+    }
+/* Poetry */
+.poem {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left
+    }
+.poem br {
+    display: none
+    }
+.poem .stanza {
+    margin: 1em 0 1em 0
+    }
+.poem span.i0 {
+    display: block;
+    margin-left: 0;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+.poem span.i2 {
+    display: block;
+    margin-left: 1em;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+.poem span.i3 {
+    display: block;
+    margin-left: 1.5em;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+@media all {
+    /* was @media handheld */
+    .firstword {
+        display: inline
+        }
+    }
+/**/
