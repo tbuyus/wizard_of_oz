@@ -16,10 +16,12 @@ s/undefined\/\/curdle/30000\/\/cùŕdlè\/\/0.001
 s/undefined\/\/curdled/30000\/\/cùŕdlèd\/\/0.001
 s/undefined\/\/curdles/30000\/\/cùŕdlèś\/\/0.001
 s/undefined\/\/cyclone/25000\/\/çŷclônè\/\/0.0017
+s/undefined\/\/d/26\/\/d\/\/4.445
 s/undefined\/\/dazzled/999999\/\/dazz0lèd\/\/1e-05
 s/undefined\/\/despairingly/18393\/\/dėspãìŕiñg0lý\/\/0.00230
 s/undefined\/\/discouragements/11460\/\/discòùŕáĝèménts\/\/0.00487
 s/undefined\/\/dominions/17756\/\/dóminĩónś\/\/0.00244
+s/undefined\/\/don/17756\/\/dôn\/\/0.00244
 s/undefined\/\/doublets/999999\/\/dòubléts\/\/1e-05
 s/undefined\/\/doublet/999999\/\/dòublét\/\/1e-05
 s/undefined\/\/gnashed/116671\/\/g0naŝħèð\/\/0.00010
@@ -34,6 +36,7 @@ s/undefined\/\/mender/14588\/\/mendèŕ\/\/0.00335
 s/undefined\/\/mewed/30000\/\/mëw0èd\/\/0.0009
 s/undefined\/\/munchkin/999999\/\/munĉħkin\/\/1e-05
 s/undefined\/\/munchkins/999999\/\/munĉħkinś/1e-05
+s/undefined\/\/mr/10400\/\/mr/0.0057
 s/undefined\/\/needn/156\/\/nêèdn/0.558
 s/undefined\/\/pattering/28394\/\/patt0èŕiñg0\/\/0.00109
 s/undefined\/\/pleasanter/3356\/\/pleàśántèŕ\/\/0.02708
