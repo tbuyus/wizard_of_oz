@@ -10,21 +10,21 @@
 #s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&graySilentLetters(&addSuperscripts($1))}else{$3}/ge;
 #s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&addSuperscripts($1)}else{$3}/ge;
 #s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&processRhotics(&graySilentLetters(&addSuperscripts($1)))}else{$3}/ge;
-#s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&addSuperscripts(&processRhotics(&graySilentLetters($1)))}else{$3}/ge;
-s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&processRhotics(&addSuperscripts(&graySilentLetters($1)))}else{$3}/ge;
+s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&addSuperscripts(&processRhotics(&graySilentLetters($1)))}else{$3}/ge;
+#s/\/\/([^\/]*)\/\/([0-9][0-9]*)\/\/([^\/]*)\/\//if($2>30){&processRhotics(&addSuperscripts(&graySilentLetters($1)))}else{$3}/ge;
 
 
 
 sub graySilentLetters {
 $word=shift; 
-$word=~ s/([^0-9][^0-9]*)0/<tt>$1<\/tt>/g;
-#$word=~ s/([a-zA-Z])0/<tt>$1<\/tt>/g;
 $word=~ s/(à)/<tt>$1<\/tt>/gi;
 $word=~ s/(è)/<tt>$1<\/tt>/gi;
 $word=~ s/(ì)/<tt>$1<\/tt>/gi;
 $word=~ s/(ò)/<tt>$1<\/tt>/gi;
 $word=~ s/(ù)/<tt>$1<\/tt>/gi;
 $word=~ s/(ħ)/<tt>$1<\/tt>/gi;
+$word=~ s/([a-zA-Z])0/<tt>$1<\/tt>/g;
+$word=~ s/([^0]{1,2})0/<tt>$1<\/tt>/g;
 $word=~ s/<\/tt><tt>//g;
 return $word;
 }
