@@ -5,6 +5,7 @@ format='-aug-0'
 echo 'copying heteronymn free content files (html)'
 cp augmented-no-heteros/43936/*.html 43936/
 cp augmented-no-heteros/43936/*.ncx  43936/
+cp augmented-no-heteros/43936/*.css  43936/
 
 echo 'running frequencey filter on the html files'
 perl -p -i.bak -f freq-filt$format.pl 43936/h-*.html
